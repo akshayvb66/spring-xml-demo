@@ -30,8 +30,7 @@
         <constructor-arg name="actor" ref="actorA"></constructor-arg>
     </bean>
 
-    <bean id="movie2" class="com.stackroute.domain.Movie" scope="prototype">
-        <constructor-arg name="actor" ref="actorB"></constructor-arg>
+    <bean id="movie2" class="com.stackroute.domain.Movie" scope="prototype" autowire="byName">
     </bean>
 
     <bean id="movie3" class="com.stackroute.domain.Movie" scope="prototype">
