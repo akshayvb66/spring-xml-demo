@@ -29,6 +29,7 @@ public class main {
         Movie movie3=context.getBean(Movie.class);
         System.out.println(movie3);
 
+        System.out.println("hi");
 
 
     }
