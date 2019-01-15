@@ -19,19 +19,19 @@ public class main {
         Movie movie1= (Movie) context.getBean("movie1");
         System.out.println(movie1);
 
-        ApplicationContext context4=new ClassPathXmlApplicationContext("beans.xml");
-        Movie movie4= (Movie) context4.getBean("movie");
-        System.out.println(movie4);
+//        ApplicationContext context4=new ClassPathXmlApplicationContext("beans.xml");
+//        Movie movie4= (Movie) context4.getBean("movie");
+//        System.out.println(movie4);
+//
+//        ApplicationContext context1=new ClassPathXmlApplicationContext("beans.xml");
+//        Movie movie2= (Movie) context1.getBean("movie2");
+//        System.out.println(movie2);
+//
+//        ApplicationContext context2=new ClassPathXmlApplicationContext("beans.xml");
+//        Movie movie3= (Movie) context2.getBean("movie3");
+//        System.out.println(movie3);
 
-        ApplicationContext context1=new ClassPathXmlApplicationContext("beans.xml");
-        Movie movie2= (Movie) context1.getBean("movie2");
-        System.out.println(movie2);
-
-        ApplicationContext context2=new ClassPathXmlApplicationContext("beans.xml");
-        Movie movie3= (Movie) context2.getBean("movie3");
-        System.out.println(movie3);
-
-        System.out.println(movie1==movie2);
+//        System.out.println(movie1==movie2);
 
 
     }
