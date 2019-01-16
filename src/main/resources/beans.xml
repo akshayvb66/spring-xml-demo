@@ -37,4 +37,6 @@
         <constructor-arg name="actor" ref="actorC"></constructor-arg>
     </bean>
 
+    <bean id="BeanLifeCycleDemoBean" class="com.stackroute.demo.BeanLifecycleDemoBean" init-method="customInit" destroy-method="customDestroy2" ></bean>
+
 </beans>
