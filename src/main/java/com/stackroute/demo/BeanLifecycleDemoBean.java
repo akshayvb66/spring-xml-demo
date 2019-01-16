@@ -20,6 +20,7 @@ public class BeanLifecycleDemoBean implements InitializingBean, DisposableBean {
     }
 
     public void destroy() throws Exception {
+        System.out.println("inside destroy");
 
     }
 }

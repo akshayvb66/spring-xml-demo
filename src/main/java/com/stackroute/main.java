@@ -32,6 +32,7 @@ public class main {
 //        System.out.println(movie3);
 
 //        System.out.println(movie1==movie2);
+        ((ClassPathXmlApplicationContext) context).close();
 
 
     }
